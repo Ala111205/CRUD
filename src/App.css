@@ -1,0 +1,29 @@
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+}
+.container-fluid{
+  width:100%;
+  min-height:100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap:20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+tr,th,td{
+  padding:8px;
+  text-align: center;
+}
+.container-fluid>button{
+  width: 10%;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+.container-fluid>button:active{
+  transform: scale(0.8);
+}
+button:active{
+  transform: scale(0.8);
+}
